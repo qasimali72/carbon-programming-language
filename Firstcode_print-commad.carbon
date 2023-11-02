@@ -1,4 +1,4 @@
-//smiple how to print data 
+//simple how to print data 
 
 package sample api;
 
@@ -14,26 +14,23 @@ fn Main() -> i32 {
 
 
     Print("-----------------+2+------------------");
-    //string print a mult line with single print line using \n and \t 
-    var multline: String = "The second line code \nThe three line code \t the new line add  ";
+    //string print a mult line with a single print line using \n and \t 
+    var multiline: String = "The second line code \nThe three line code \t the new line add  ";
     Print("\n");
-    Print(multline);
+    Print(multiline);
     Print("\n");
 
     Print("-----------------+3+------------------");
-    //inter print dty 
+    //inter print directly 
     var inter: i32 = 23;   //interger
     Print("{0}",inter);
-    Print("The single interger print");
+    Print("The single integer print");
 
    Print("-----------------+6+------------------");
-     //dty print a number and aslo string 
-     Print("The Print a number in drty with a varible ex \n");
+     //directly print a number and also string 
+     Print("The Print a number in directly with a variable ex \n");
      var zs: auto = 3;   
      Print(zs); 
-
-
-
 
     return 0;
 }
